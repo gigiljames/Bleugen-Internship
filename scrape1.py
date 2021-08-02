@@ -29,7 +29,7 @@ for i in range(1,11):
         csv1.append([''.join(name),''.join(price),''.join(link)])
 print(items)
 
-with open('scrape.csv','w',newline='') as f:
+with open('scrape1.csv','w',newline='') as f:
     w=csv.writer(f)
     w.writerows(csv1)
-df=pd.read_csv('scrape.csv')
+df=pd.read_csv('scrape1.csv')
