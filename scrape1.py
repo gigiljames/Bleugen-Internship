@@ -6,8 +6,6 @@ import csv
 #$x('//a[@class="woocommerce-LoopProduct-link woocommerce-loop-product__link"]/h2/text()')
 #$x('//a[@class="woocommerce-LoopProduct-link woocommerce-loop-product__link"]/span/span/span/text()')
 
-
-
 items=[]
 csv1=[['Name','Price','URL']]
 url='https://scrapeme.live/shop/page/{}/'
